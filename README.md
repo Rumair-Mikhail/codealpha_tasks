@@ -19,5 +19,21 @@ A Python-based network sniffer developed using Scapy to capture and analyze live
 - Python
 - Scapy
 
+# Task 2: CodeAlpha_Task2_Secure_Coding_Review
+A security-focused code review performed on DVWA (Damn Vulnerable Web Application) using Semgrep for static analysis, followed by manual verification of the flagged code. The project identifies key vulnerabilities in the application and documents clear remediation steps for each.
+
+## Features
+
+* Static analysis scan using Semgrep
+* Manual verification of flagged vulnerabilities
+* Identified issues: SQL Injection, Command Injection, unsafe eval(), Path Traversal, weak comparison logic
+* Documented remediation steps for each vulnerability
+* Full report with code snippets and fixes
+
+## Technologies Used
+
+* PHP (target application)
+* Semgrep
+
 ## Author
 Sameer Azam
